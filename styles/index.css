@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    text-align: justify;
+}
+
+div#centerBox{
+    display: block;
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 1%;
+    margin: 10px 10px 10px 10px;
+
+}
