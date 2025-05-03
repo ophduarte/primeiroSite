@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header, footer{
+    padding: 20px;
+
+}
+
+body{
+    background-color: rgba(253, 138, 50, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    top: 10px;
+    /* background-color: red; */
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+hgroup{
+    color: rgb(18, 8, 1);
+}
+#aboutme_title{
+    /* background-color: yellow; */
+    margin-right:  20px;
+    right: 0px;
+    color: rgb(135, 69, 19);
+}
+
+#menu{
+    margin-left: 20px;
+    /* background-color: blue; */
+    justify-self: start;
+    flex: auto;
+}
+
+.menuItem{
+    display: inline-block;  
+    /* background-color: blueviolet; */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16pt;
+    font-weight: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(135, 69, 19);
+}
+
+a:hover{
+    font-size: 18pt;
+    color: rgb(18, 8, 1);
+}
+
+section.flex_box{
+    padding: 0px 20px 20px 20px;
+    /* background-color: green; */
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+p, h1, h2{
+    margin: 10px;
+    text-align: justify;
+}
+
+section > article {
+    /* border: dashed red; */
+    margin: 20px;
+    font-size: 14pt;
+}
+
+
+article#foto_autor{
+    height:37rem;
+    width:30rem;
+    flex: 1 1 300px;
+}
+
+article#texto_autor{
+    flex: 1 1 750px;
+    margin-top: 5px;
+    
+}
+
+img#autor{
+    height: 39rem;
+    width:auto;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+
+footer p{
+    /* background-color: aqua; */
+    color: rgb(135, 69, 19);
+    font-weight: 1000;
+    margin: auto;
+    text-align: center;
+}
